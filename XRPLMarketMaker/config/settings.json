@@ -3,13 +3,9 @@
   "BotAddress": "rGDaEAuTDrbecX3RHvWtNGPJ3vsghuHn4", //Address that holds the liquidity tokens
   "BotSecret": "", //Secret to the liquidity address. KEEP THIS PRIVATE AND SAFE!
   "CurrencyCode": "EMBRS", //currency code of EMBRS token
-  "IssuerAddress": "rPbKMFvHbdEGBog98UjZXRdUx37MFKMfxB", //Address that issued the tokens for rewards
-  "TransferFee": 0, //Usually not applicable. Leave at 0 if unsure. TransferRate of your token in %, must be between 0 and 100
+  "IssuerAddress": "rPbKMFvHbdEGBog98UjZXRdUx37MFKMfxB", //Address that issued the currency
   "BotTokenAmt": 1, //amount of tokens in each bid and ask
-  "AccountLinesThrottle": 10, //Number of seconds between request calls. Recommended not to change. Lower settings could result in a block from web service hosts.
   "TxnThrottle": 1, //Number of seconds between request calls. Recommended not to change. Lower settings could result in a block from web service hosts.
-  "FeeMultiplier": 1.1, //How many times above average fees to pay for reliable transactions
-  "MaximumFee": 11, //Maximum number of drops willing to pay for each transaction
   "Steps": 1, //Number of ask and bid offers around the mid price
   "Interval": 0.002 //Multiplier of price increase/decrease around the mid price per step
 }
