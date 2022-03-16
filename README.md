@@ -13,7 +13,7 @@ An XRPL liquidity bot
 
 ## Settings
 
-- **WebSocket_URL**: Main Net: 	wss://s1.ripple.com/  wss://xrplcluster.com/  Test Net: wss://s.altnet.rippletest.net/
+- **WebSocketURL**: Main Net: 	wss://s1.ripple.com/  wss://xrplcluster.com/  Test Net: wss://s.altnet.rippletest.net/
 - **BotAddress**: Address that holds the liquidity tokens
 - **BotSecret**: Secret to the liquidity address. KEEP THIS PRIVATE AND SAFE!
 - **CurrencyCode**: Currency code of EMBRS token (can be any token)
